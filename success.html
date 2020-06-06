@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kreon:300,400,500,600,700|Muli:200,200i,300,
+    300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-none">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="frontend/images/Logo-IFschool.png" alt="">
+                </a>
+            </div>
+           <ul class="navbar-nav mr-auto d-none d-lg-block">
+               <li>
+                   <span class="text-muted">
+                       | &nbsp; Tech No Limit
+                   </span>
+               </li>
+           </ul> 
+        </nav>
+    </div>
+
+    <main>
+        <div class="section-success d-flex align-items-center">
+            <div class="col text-center">
+                <img src="frontend/images/icon_success.png" alt="" class="image-success">
+                <h1>YAYY!! SUCCESS!!!</h1>
+                <p>You've sent an email to
+                    <br>
+                    SMA INFORMATIKA
+                </p>
+                <a href="index.html" class="btn btn-home-page mt-3 px-5">
+                    Homepage
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!--footer-->
+    
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#3333',
+                xoffset: 15
+            });
+            $('.datepicker').datepicker({
+                uilibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/icon_calendar@2x.png"/>'
+                }
+            });
+        });
+    </script>
+</body>
+</html>

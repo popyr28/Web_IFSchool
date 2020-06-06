@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Kreon:300,400,500,600,700|Muli:200,200i,300,
+    300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-none">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/Logo-IFschool.png" alt="Logo SMA INFORMATIKA">
+            </a>
+           <button class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navb"
+            >
+            <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navb">
+               <ul class="navbar-nav ml-auto mr-3">
+                   <li class="nav-item mx-md-2">
+                       <a href="index.html" class="nav-link active">Home</a>
+                   </li>
+                   <li class="nav-item mx-md-2">
+                       <a href="about.html" class="nav-link">About Us</a>
+                   </li>
+                   <li class="nav-item dropdown">
+                       <a href="#" class="nav-link dropdown-toggle" id="navbardrop"
+                       data-toggle="dropdown">Curriculum
+                       </a>
+                       <div class="dropdown-menu">
+                           <a href="#" class="dropdown-item">IPA</a>
+                           <a href="#" class="dropdown-item">IPS</a>
+                           <a href="#" class="dropdown-item">BAHASA</a>
+                       </div>
+                   </li>
+                   <li class="nav-item mx-md-2">
+                       <a href="#Services" class="nav-link">Services</a>
+                   </li>
+                   <li class="nav-item mx-md-2">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+               </ul> 
+                   <!--mobile button-->
+                   <form class="form-inline d-sm-block d-md-none">
+                       <button class="btn btn-login my-2 my-sm-0">
+                           Sign in
+                       </button>
+                   </form>
+
+                   <!--dekstop button-->
+                   <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Sign in
+                    </button>
+                </form>
+           </div>
+        </nav>
+    </div>
+
+    <!--header-->
+    <header class="text-center">
+        <h1>Welcome to</h1>
+        <p class="Judul mt-3">
+            SMA INFORMATIKA
+        </p>
+        <a href="#" class="btn btn-get-started px-4 mt-4">
+            Get Started
+        </a>
+    </header>
+
+    <!--main-->
+    <main>
+        <div class="container">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>3K</h2>
+                    <p>Students</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>300</h2>
+                    <p>Teachers</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>53</h2>
+                    <p>Extracuriculer</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>72</h2>
+                    <p>Partners</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2 id="Services">Our Services</h2>
+                        <p>Happiness begins from you 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-popular-content" id="popular">
+            <div class="container">
+                <div class="section-popular-travel row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image:url('frontend/images/item-1.png')">
+                            <div class="travel-country">FASILITIES</div>
+                            <div class="travel-location">LABORATORY</div>
+                            <div class="travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">Get More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image:url('frontend/images/item-2.png')">
+                            <div class="travel-country">FASILITIES</div>
+                            <div class="travel-location">LIBRARY</div>
+                            <div class="travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">Get More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image:url('frontend/images/item-3.png')">
+                            <div class="travel-country">FASILITIES</div>
+                            <div class="travel-location">SCHOOL BUS</div>
+                            <div class="travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">Get More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image:url('frontend/images/item-4.png')">
+                            <div class="travel-country">FASILITIES</div>
+                            <div class="travel-location">CAFETARIA</div>
+                            <div class="travel-button mt-auto">
+                                <a href="details.html" class="btn btn-travel-details px-4">Get More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-network" id="network">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h2>NETWORKS</h2>
+                        <p>Our trusted partners </br> just for you</p>
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <img src="frontend/images/logo-partner.png" 
+                        alt="Logo Partner" class="img-partner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-testimonial-heading" id="testimonial-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>
+                            They're loving us
+                        </h2>
+                        <p>
+                            Moments were giving them </br>
+                            the best experience in study
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-testimonial-content" id="testimonial-content">
+            <div class="container">
+                <div class="section-testimonial-star row justify-content-center">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card-testimonial text-center border">
+                            <div class="testimonal-content">
+                                <h3 class="mb-3">Pepo</h3>
+                                <img src="frontend/images/testi-1.png" alt="testi-1"
+                                class="mb-4 rounded-circle">
+                                <p class="testimonial">
+                                    "Thank you for making <br>
+                                    my teen so wonderful, <br>
+                                    I could not stop to say uwaaaa <br>
+                                    for every single moment in there. <br>
+                                    Thanks"
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Ilkom-UGM
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card-testimonial text-center border">
+                            <div class="testimonal-content">
+                                <h3 class="mb-3">Jojo</h3>
+                                <img src="frontend/images/testi-2.png" alt="testi-1"
+                                class="mb-4 rounded-circle">
+                                <p class="testimonial">
+                                    "Susah emang kalo<br>
+                                    LDR beda pulau, but I can do it<br>
+                                    because YOU. Lov u all<br>
+                                    Thanks"
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Informatika-ITS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card-testimonial text-center border">
+                            <div class="testimonal-content">
+                                <h3 class="mb-3">Himhim</h3>
+                                <img src="frontend/images/testi-3.png" alt="testi-1"
+                                class="mb-4 rounded-circle">
+                                <p class="testimonial">
+                                    "I miss every single moment<br>
+                                    in there. Uwaaaaaa"<br>
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Fasilkom-UI
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
+                            Help me
+                        </a>
+                        <a href="about.html" class="btn btn-get-started px-4 mt-4 mx-1">
+                            About Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Accomodity</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reward</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Surakarta</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="contact.html">smait@if.sch.id</a></li>
+                                <li><a href="index.html">www.smaif.sch.co.id</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-grey-500 font-weight-light">
+                    2020 Copiright smaif • All right reserved • Made in Surakarta 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+</html>
